@@ -9,6 +9,7 @@
 .project-container{
     color: var(--color-text);
     position:relative;
+    marging:20px;
 }
 .first-text-content{
     width: 50%;
