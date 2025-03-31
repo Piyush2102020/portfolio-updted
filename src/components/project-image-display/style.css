@@ -18,6 +18,7 @@
 .center {
     z-index: 10;
     animation: fadeScale 1.5s ease-in forwards; 
+    width:300px;
 }
 
 .left-side {
