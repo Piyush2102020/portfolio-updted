@@ -2,7 +2,7 @@
 
 .image-item {
     width: 200px;
-    opacity: 0; /* Hidden by default */
+    opacity: 0; 
     border-radius: 10px;
     animation-fill-mode: forwards;
 }
@@ -17,21 +17,21 @@
 
 .center {
     z-index: 10;
-    animation: fadeScale 1.5s ease-in forwards; /* Scale + Fade effect */
+    animation: fadeScale 1.5s ease-in forwards; 
 }
 
 .left-side {
     mask-image: linear-gradient(to right, transparent, white);
-    transform: translateX(-100px) scale(0.4); /* Initial slide + smaller scale */
+    transform: translateX(-100px) scale(0.4);
     animation: slideLeft 1.5s ease-in forwards;
-    animation-delay: 2s; /* Delayed entry */
+    animation-delay: 2s; 
 }
 
 .right-side {
     mask-image: linear-gradient(to left, transparent, white);
-    transform: translateX(100px) scale(0.4); /* Initial slide + smaller scale */
+    transform: translateX(100px) scale(0.4); 
     animation: slideRight 1.5s ease-in forwards;
-    animation-delay: 2s; /* Delayed entry */
+    animation-delay: 2s; 
 }
 
 @keyframes fadeScale {
