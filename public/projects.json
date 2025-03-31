@@ -30,9 +30,8 @@
     "purpose": "To create a self-evolving AI personal assistant that can handle multiple tasks independently and continuously improve through interaction.",
     "images": {
       "front": {
-        "center":"/raw/images/veronica/veronica_front_3.png",
-        "left":"/raw/images/veronica/veronica_front_sample_1.png",
-        "right":"/raw/images/veronica/veronica_front_4.png"
+        "center":"/raw/images/veronica/veronica_front_3.png"
+      
       },
       "backend": [
         "/raw/images/veronica/veronica_code_sample_1.png",
