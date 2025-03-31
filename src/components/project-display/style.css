@@ -3,6 +3,7 @@
 .first-section{
     height: 100vh;
     display: flex;
+    gap:50px;
 }
 
 .project-container{
