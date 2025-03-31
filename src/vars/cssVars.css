@@ -1,0 +1,166 @@
+:root {
+    /* 🎨 Core Colors */
+    --color-accent: rgb(24, 161, 0); /* Primary Accent */
+    --color-text: rgb(230, 230, 230); /* Main Text Color */
+    --color-background: rgb(23, 23, 23); /* Dark Background */
+    --color-fade: color-mix(in srgb, var(--color-accent) 30%, white); /* Faded Version of Accent */
+    --color-element: color-mix(in srgb, var(--color-background) 50%, white 5%); /* Darker Accent for UI Elements */
+
+    /* 🌄 Background Image */
+    --background-image: url('/images/backgrounds/148337-blue_and_white_light_digital_wallpaper-3840x2160.jpg');
+
+    /* 🖋 Header & Text */
+    --color-header: rgb(30, 30, 30);
+    --text-on-header: white;
+
+    /* 🏗 Element Styling */
+    --color-border: white;
+    --color-text-border: black;
+    --color-shadow: rgba(223, 223, 223, 0.5);
+    
+    /* 📏 Padding */
+    --padding-small: 10px;
+    --padding-medium: 20px;
+    --padding-large: 40px;
+
+    /* 📐 Margins */
+    --margin-small: 10px;
+    --margin-medium: 20px;
+    --margin-large: 50px;
+
+    /* 🔲 Border Radius */
+    --radius-small: 5px;
+    --radius-medium: 15px;
+    --radius-large: 25px;
+
+    /* ⚡ Box Shadows */
+    --shadow: 0px 10px 15px var(--color-shadow);
+
+    /* 📌 Spacing */
+    --gap-small: 5px;
+    --gap-medium: 10px;
+    --gap-large: 20px;
+
+    /* 📌 Misc */
+    --filter:brightness(0) invert(1);
+    --icon-size: 50px;
+
+    background: var(--color-background);
+}
+
+
+:root[data-theme="purple"] {
+    /* 🎨 Core Colors */
+    --color-accent: #927df9; /* Primary Accent */
+    --color-text:black ; /* Main Text Color */
+    --color-background: #FBFBFB; /* Dark Background */
+    --color-fade: color-mix(in srgb, var(--color-accent) 30%, white); /* Faded Version of Accent */
+    --color-element: color-mix(in srgb, var(--color-background) 50%, black 10%); /* Darker Accent for UI Elements */
+
+    /* 🌄 Background Image */
+    --background-image: url('/images/backgrounds/148337-blue_and_white_light_digital_wallpaper-3840x2160.jpg');
+
+    /* 🖋 Header & Text */
+    --color-header: rgb(30, 30, 30);
+    --text-on-header: white;
+
+    /* 🏗 Element Styling */
+    --color-border: white;
+    --color-text-border: black;
+    --color-shadow: rgba(223, 223, 223, 0.5);
+    --filter:none;
+}
+
+
+
+
+:root[data-theme="chocolate"] {
+    /* 🎨 Core Colors */
+    --color-accent: #131010; /* Primary Accent */
+    --color-text:black ; /* Main Text Color */
+    --color-background: #FFF0DC; /* Dark Background */
+    --color-fade: color-mix(in srgb, var(--color-accent) 30%, white); /* Faded Version of Accent */
+    --color-element: color-mix(in srgb, var(--color-background) 50%, black 10%); /* Darker Accent for UI Elements */
+
+    /* 🌄 Background Image */
+    --background-image: url('/images/backgrounds/148337-blue_and_white_light_digital_wallpaper-3840x2160.jpg');
+
+    /* 🖋 Header & Text */
+    --color-header: rgb(30, 30, 30);
+    --text-on-header: white;
+
+    /* 🏗 Element Styling */
+    --color-border: white;
+    --color-text-border: black;
+    --color-shadow: rgba(223, 223, 223, 0.5);
+    --filter:none;
+}
+
+
+:root[data-theme="blue"]{
+    /* 🎨 Core Colors */
+    --color-accent: #1e3d58; /* Primary Accent */
+    --color-text:black ; /* Main Text Color */
+    --color-background: #e8eef1; /* Dark Background */
+    --color-fade: color-mix(in srgb, var(--color-accent) 30%, white); /* Faded Version of Accent */
+    --color-element: color-mix(in srgb, var(--color-background) 50%, black 10%); /* Darker Accent for UI Elements */
+
+    /* 🌄 Background Image */
+    --background-image: url('/images/backgrounds/148337-blue_and_white_light_digital_wallpaper-3840x2160.jpg');
+
+    /* 🖋 Header & Text */
+    --color-header: rgb(30, 30, 30);
+    --text-on-header: white;
+
+    /* 🏗 Element Styling */
+    --color-border: white;
+    --color-text-border: black;
+    --color-shadow: rgba(223, 223, 223, 0.5);
+    --filter:none;
+}
+
+
+
+:root[data-theme=red]{
+    /* 🎨 Core Colors */
+    --color-accent: #f50538; /* Primary Accent */
+    --color-text:white ; /* Main Text Color */
+    --color-background: #000000; /* Dark Background */
+    --color-fade: color-mix(in srgb, var(--color-accent) 30%, white); /* Faded Version of Accent */
+    --color-element: color-mix(in srgb, var(--color-background) 50%, white 10%); /* Darker Accent for UI Elements */
+
+    /* 🌄 Background Image */
+    --background-image: url('/images/backgrounds/148337-blue_and_white_light_digital_wallpaper-3840x2160.jpg');
+
+    /* 🖋 Header & Text */
+    --color-header: rgb(30, 30, 30);
+    --text-on-header: white;
+
+    /* 🏗 Element Styling */
+    --color-border: white;
+    --color-text-border: black;
+    --color-shadow: rgba(223, 223, 223, 0.5);
+    --filter:brightness(0) invert(1);
+}
+
+:root[data-theme="green"]{
+    /* 🎨 Core Colors */
+    --color-accent: #3a4643; /* Primary Accent */
+    --color-text:black; /* Main Text Color */
+    --color-background: #ecfaf6; /* Dark Background */
+    --color-fade: color-mix(in srgb, var(--color-accent) 30%, white); /* Faded Version of Accent */
+    --color-element: color-mix(in srgb, var(--color-background) 50%, black 10%); /* Darker Accent for UI Elements */
+
+    /* 🌄 Background Image */
+    --background-image: url('/images/backgrounds/148337-blue_and_white_light_digital_wallpaper-3840x2160.jpg');
+
+    /* 🖋 Header & Text */
+    --color-header: rgb(30, 30, 30);
+    --text-on-header: white;
+
+    /* 🏗 Element Styling */
+    --color-border: white;
+    --color-text-border: black;
+    --color-shadow: rgba(223, 223, 223, 0.5);
+    --filter:none;
+}

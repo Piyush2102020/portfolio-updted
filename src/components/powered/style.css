@@ -1,0 +1,35 @@
+@import url('../../vars/cssVars.css');
+
+.tech-logos{
+    gap: var(--gap-medium);
+    display: flex;
+    z-index: 50;
+}
+
+
+.logo-item{
+    justify-content: center;
+    padding: var(--padding-small);
+    align-items: center;
+    border-radius: var(--radius-small);
+    display: flex;
+    fill: currentColor;
+}
+.logo-item img{
+    height: var(--icon-size);
+    filter: var(--filter);
+    flex-direction: column;
+    width: var(--icon-size);
+}
+
+
+@media (max-width:768px) {
+    .tech-logos{
+        gap: 5px;
+    }
+    .logo-item{
+        padding: 5px;
+        transform: scale(0.7);
+    }
+    
+}

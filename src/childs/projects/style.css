@@ -1,0 +1,11 @@
+@import url('../../vars/cssVars.css');
+
+
+.project-container{
+    background-color: var(--support-color);
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    width: 100%;
+    height: 85vh;
+}

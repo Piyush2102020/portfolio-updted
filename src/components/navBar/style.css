@@ -1,0 +1,41 @@
+@import url('../../vars/cssVars.css');
+
+.navBar{
+    display: flex;
+    gap: 50px;
+    margin: var(--margin-medium);
+    align-self: flex-start;
+    width: fit-content;
+    color: var(--text-on-image);
+}
+
+.nav-item{
+    outline: none;
+    border: none;
+    font-weight: bold;
+    color: inherit;
+    background: transparent;
+}
+
+.nav-item:hover{
+    transform: scale(1.1);
+    color: color-mix(in srgb, var(--color-accent), white 50%);
+}
+
+.link{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+@media (max-width:768px) {
+    
+    .navBar{
+        gap: 10px;
+        
+    }
+
+    .nav-item{
+        font-size: 12px;
+    }
+}

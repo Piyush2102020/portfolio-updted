@@ -1,0 +1,31 @@
+@import url('../../vars/cssVars.css');
+
+* {
+    transition: 0.3s ease-in-out;
+}
+
+.image-display {
+    width: 450px;
+    height: 200px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.display-item {
+    width: 150px;
+    position: absolute;
+    transition: transform 1s ease, opacity 1s ease;
+    opacity: 0;
+    transform: translateX(300px);
+}
+
+.display-item.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.display-item.exit {
+    opacity: 0;
+    transform: translateX(-300px);
+}

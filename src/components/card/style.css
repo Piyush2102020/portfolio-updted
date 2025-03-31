@@ -1,0 +1,74 @@
+@import url('../../vars/cssVars.css');
+
+
+body{
+    color: white;
+}
+.project-card{
+    justify-content: center;
+    border-radius: var(--radius-medium);
+    align-items: center;
+    font-size: 1.3rem;
+    display: flex;
+    transform: scale(0.8);
+    background-color: var(--color-element);
+    color: var(--color-text);
+}
+
+.card-text-content{
+    line-height: 1.2;
+    margin: var(--margin-medium);
+    display: flex inline-flexbox;
+    flex-direction: column;
+    justify-content: center;
+    gap:var(--gap-medium);
+    width: 50%;
+}
+
+.card-image{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: var(--margin-medium);
+}
+
+.button-base{
+    width: fit-content;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+.holder{
+    align-items: center;
+    display: flex;
+}
+
+.span-text{
+    text-align: start;
+    margin: var(--margin-medium);
+    display: flex;
+    align-items: flex-start;
+    color: color-mix(in srgb, var(--header-color) 60%, white 90%)
+}
+
+.dark-button{
+    background-color: color-mix(in srgb, var(--color-accent) 100%,black 5%);
+}
+
+
+@media (max-width:768px) {
+    
+    .project-card{
+        flex-direction: column-reverse;
+    }
+    .card-text-content{
+        width: 90%;
+    }
+    
+    .card-image{
+        width: 90%;
+
+    }
+}

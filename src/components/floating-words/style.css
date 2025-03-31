@@ -1,0 +1,65 @@
+@import url('../../vars/cssVars.css');
+
+.floating-words-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.floating-word {
+    position: absolute;
+    background-color: var(--color-element);
+    padding: var(--padding-small);
+    border-radius: var(--radius-medium);
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    animation: floatAnimation linear infinite alternate;
+}
+
+
+
+/* Move them randomly to different areas */
+.floating-word:nth-child(1) { animation: move1 6s infinite alternate ease-in-out; }
+.floating-word:nth-child(2) { animation: move2 7s infinite alternate ease-in-out; }
+.floating-word:nth-child(3) { animation: move3 5s infinite alternate ease-in-out; }
+.floating-word:nth-child(4) { animation: move4 8s infinite alternate ease-in-out; }
+.floating-word:nth-child(5) { animation: move5 6.5s infinite alternate ease-in-out; }
+.floating-word:nth-child(6) { animation: move6 7.5s infinite alternate ease-in-out; }
+.floating-word:nth-child(7) { animation: move7 5.5s infinite alternate ease-in-out; }
+.floating-word:nth-child(8) { animation: move8 6.8s infinite alternate ease-in-out; }
+.floating-word:nth-child(9) { animation: move9 7.2s infinite alternate ease-in-out; }
+.floating-word:nth-child(10) { animation: move10 8.5s infinite alternate ease-in-out; }
+.floating-word:nth-child(11) { animation: move11 7.3s infinite alternate ease-in-out; }
+.floating-word:nth-child(12) { animation: move12 6.6s infinite alternate ease-in-out; }
+.floating-word:nth-child(13) { animation: move13 8.2s infinite alternate ease-in-out; }
+.floating-word:nth-child(14) { animation: move14 7.7s infinite alternate ease-in-out; }
+.floating-word:nth-child(15) { animation: move15 6.4s infinite alternate ease-in-out; }
+.floating-word:nth-child(16) { animation: move16 9s infinite alternate ease-in-out; }
+
+@keyframes floatAnimation {
+    0% { transform: translateY(0px) translateX(0px); }
+    100% { transform: translateY(-20px) translateX(10px); }
+}
+
+@keyframes move1 { 100% { transform: translate(-300px, -150px); } }
+@keyframes move2 { 100% { transform: translate(200px, 100px); } }
+@keyframes move3 { 100% { transform: translate(-250px, 180px); } }
+@keyframes move4 { 100% { transform: translate(220px, -190px); } }
+@keyframes move5 { 100% { transform: translate(-130px, 90px); } }
+@keyframes move6 { 100% { transform: translate(100px, -220px); } }
+@keyframes move7 { 100% { transform: translate(-170px, 250px); } }
+@keyframes move8 { 100% { transform: translate(80px, -170px); } }
+@keyframes move9 { 100% { transform: translate(-220px, 130px); } }
+@keyframes move10 { 100% { transform: translate(150px, -80px); } }
+@keyframes move11 { 100% { transform: translate(-180px, -100px); } }
+@keyframes move12 { 100% { transform: translate(230px, 90px); } }
+@keyframes move13 { 100% { transform: translate(-140px, 200px); } }
+@keyframes move14 { 100% { transform: translate(190px, -160px); } }
+@keyframes move15 { 100% { transform: translate(-120px, 110px); } }
+@keyframes move16 { 100% { transform: translate(160px, -130px); } }

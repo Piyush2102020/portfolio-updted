@@ -1,0 +1,56 @@
+@import url('../../vars/cssVars.css');
+
+.first-section{
+    height: 100vh;
+    display: flex;
+}
+
+.project-container{
+    color: var(--color-text);
+}
+.first-text-content{
+    width: 50%;
+    margin: var(--margin-medium);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-medium);
+}
+
+.project-images{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-text-content .span-text{
+    margin:0
+}
+
+
+@media (max-width:768px) {
+
+
+
+    .first-section{
+        flex-direction: column-reverse;
+        height: fit-content;
+        width: 100vw;
+       
+    }
+
+    .project-images{
+        width: 100%;
+    }
+
+    .first-text-content{
+        margin: 0;
+        width: 100%;
+        
+    }
+    
+    h2{
+        margin: 0;
+        padding: 0;
+    }
+}

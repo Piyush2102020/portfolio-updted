@@ -1,0 +1,15 @@
+@import url('../../vars/cssVars.css');
+
+
+.bean-layout{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-medium);
+}
+.bean{
+    background-color: color-mix(in srgb, var(--color-element), white 1%);
+    color: var(--color-text);
+    width: fit-content;
+    border-radius: var(--radius-medium);
+    padding: var(--padding-small);
+}

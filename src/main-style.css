@@ -1,0 +1,27 @@
+/* Style for the scrollbar container */
+::-webkit-scrollbar {
+    width: 0px; /* Change the width of the scrollbar */
+    height: 0px; /* Change the height of horizontal scrollbar */
+}
+
+/* Style for the scrollbar track (background area) */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Light grey background */
+    border-radius: 10px; /* Optional: make the corners rounded */
+}
+
+/* Style for the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background: #888; /* Darker thumb color */
+    border-radius: 10px; /* Optional: rounded corners for the thumb */
+}
+
+/* Style for the scrollbar thumb when hovered */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Darker color when hovered */
+}
+
+/* Style for the scrollbar corner (bottom-right corner, when both horizontal & vertical scrollbars are present) */
+::-webkit-scrollbar-corner {
+    background: #f1f1f1; /* Corner color */
+}

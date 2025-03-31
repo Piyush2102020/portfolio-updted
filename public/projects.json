@@ -1,0 +1,130 @@
+{
+  "veronica": {
+    "name": "Veronica",
+    "shortDescription": "An AI assistant with self-learning, automation, and multi-tasking capabilities.",
+    "description": "Veronica is an AI personal assistant that goes beyond traditional virtual assistants. It is capable of performing multiple tasks such as music playback, Instagram automation, weather updates, and intelligent conversations using custom NLP algorithms. Veronica is built with self-improvement capabilities and a custom GPT classifier that can understand user queries and generate context-aware responses.",
+    "techStack": [
+      "Python",
+      "PyTorch",
+      "Ollama",
+      "Google APIs"
+    ],
+    "timeTaken": "6 Months (Ongoing)",
+    "status": "Ongoing",
+    "type": "Personal Project",
+    "tags": [
+      "AI",
+      "Automation",
+      "Machine Learning",
+      "Chatbot"
+    ],
+    "features": [
+      "Custom GPT Classifier",
+      "AI Text-Based Responses",
+      "Music Playback (YouTube & Local)",
+      "Instagram Automation (Posting & Replies)",
+      "Web Scraping",
+      "Real-Time Weather & News Updates",
+      "Database Integration for Conversation History"
+    ],
+    "purpose": "To create a self-evolving AI personal assistant that can handle multiple tasks independently and continuously improve through interaction.",
+    "images": {
+      "front": {
+        "center":"/raw/images/veronica/veronica_front_3.png",
+        "left":"/raw/images/veronica/veronica_front_sample_1.png",
+        "right":"/raw/images/veronica/veronica_front_4.png"
+      },
+      "backend": [
+        "/raw/images/veronica/veronica_code_sample_1.png",
+        "/raw/images/veronica/veronica_code_sample_1.png",
+        "/raw/images/veronica/veronica_code_sample_1.png"
+      ]
+    },
+    "ratings": 4.9,
+    "logo": "/raw/images/veronica/veronica.png"
+  },
+  "agrodoc": {
+    "name": "AgroDoc",
+    "shortDescription": "A smart farming assistant providing fertilizer recommendations and weather analysis.",
+    "description": "AgroDoc is an intelligent system designed to help farmers by recommending the right fertilizers based on soil nutrient analysis and geolocation. The app uses machine learning models to predict rainfall and temperature patterns while providing personalized recommendations to improve crop yields. It also integrates an Arduino-based sensor system for real-time soil monitoring.",
+    "techStack": [
+      "Java",
+      "Firebase",
+      "Google APIs",
+      "Arduino",
+      "Arduino IDE",
+      "C"
+    ],
+    "timeTaken": "4 Months",
+    "status": "Completed",
+    "type": "Academic Project",
+    "tags": [
+      "Machine Learning",
+      "IoT",
+      "Agriculture",
+      "Automation"
+    ],
+    "features": [
+      "Soil Nutrient Analysis (NPK Levels)",
+      "Geolocation-Based Fertilizer Recommendations",
+      "Weather Prediction (Rainfall & Temperature)",
+      "Real-Time Sensor Integration",
+      "User-Friendly Android Interface"
+    ],
+    "purpose": "To empower farmers with technology that promotes sustainable agriculture and increases productivity.",
+    "images": {
+      "front": {
+       "center": "/raw/images/agrodoc/agrodoc_front_sample_1.png",
+       "left": "/raw/images/agrodoc/agrodoc_front_sample2.png",
+       "right":"/raw/images/agrodoc/agrodoc_front_sample3.png"
+      },
+      "backend": [
+        "/raw/images/agrodoc/agrodoc_code_sample_1.png",
+        "/raw/images/agrodoc/agrodoc_code_sample_1.png",
+        "/raw/images/agrodoc/agrodoc_code_sample_1.png"
+      ]
+    },
+    "ratings": 4.7,
+    "logo": "/raw/images/agrodoc/agriculture.jpg"
+  },
+  "confession": {
+    "name": "Confession App",
+    "shortDescription": "An anonymous college confession app for students to share their thoughts freely.",
+    "description": "The Confession App is a simple yet innovative platform that allows college students to share their thoughts and secrets anonymously. The app features user authentication and message moderation, providing a safe space for students to express themselves without revealing their identity. Though it didn't attract many users, the app demonstrated the importance of privacy and community in digital platforms.",
+    "techStack": [
+      "Java",
+      "Firebase",
+      "Google APIs"
+    ],
+    "timeTaken": "2 Months",
+    "status": "Completed",
+    "type": "Personal Project",
+    "tags": [
+      "Anonymous Messaging",
+      "Firebase",
+      "Privacy"
+    ],
+    "features": [
+      "Anonymous Messaging",
+      "User Authentication with Firebase",
+      "Google API Integration",
+      "Message Moderation System",
+      "Simple and Intuitive UI"
+    ],
+    "purpose": "To create a digital platform where students can express their thoughts anonymously without fear of judgment.",
+    "images": {
+      "front": {
+        "center":"/raw/images/confession/confession_front_sample_1.png",
+        "left":"/raw/images/confession/confession_front_sample_2.png",
+        "right":"/raw/images/confession/confession_front_sample_3.png"
+      },
+      "backend": [
+        "/raw/images/confession/confession_code_sample_1.png",
+        "/raw/images/confession/confession_code_sample_1.png",
+        "/raw/images/confession/confession_code_sample_1.png"
+      ]
+    },
+    "ratings": 4.3,
+    "logo": "/raw/images/confession/confession.png"
+  }
+}

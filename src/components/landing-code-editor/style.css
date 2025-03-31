@@ -1,0 +1,92 @@
+/* Code Editor Style */
+.code-editor {
+    background-color: #1e1e1e;
+    color: white;
+    font-family: 'Fira Code', monospace;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: fit-content;
+    position: relative;
+}
+
+/* Fake editor header */
+.editor-header {
+    display: flex;
+    align-items: center;
+    background: #2d2d2d;
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.red { background: #ff5f56; }
+.yellow { background: #ffbd2e; }
+.green { background: #27c93f; }
+
+.file-name {
+    color: #ccc;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+/* Code Styling */
+.editor-body {
+    padding: 10px;
+    
+    line-height: 1.5;
+}
+
+/* Syntax Highlighting */
+.keyword { color: #569cd6; } /* const */
+.variable { color: #9cdcfe; } /* developer */
+.property { color: #ce9178; } /* name, role */
+.string { color: #d69d85; } /* Strings */
+.array { color: #b5cea8; } /* Arrays */
+.function { color: #dcdcaa; } /* Functions */
+.function-call { color: #c586c0; font-weight: bold; } /* console.log */
+
+
+
+
+.code-editor {
+    animation: floatEffect 3s infinite ease-in-out;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.8);
+
+}
+
+@keyframes floatEffect {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-25px); }
+}
+
+
+
+
+
+@media (max-width:768px) {
+    .code-editor {
+        background-color: #1e1e1e;
+        color: white;
+        font-family: 'Fira Code', monospace;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        width: fit-content;
+        position: relative;
+        align-self: center;
+    }
+
+}
+

@@ -1,0 +1,35 @@
+@import url('../../vars/cssVars.css');
+
+
+
+.about-me{
+    margin-left: var(--padding-small);
+    padding: var(--padding-small);
+    color: var(--color-text);
+    font-size: 1rem;
+    max-width: 70vw;
+    background-color: var(--color-element);
+    border-radius: var(--radius-medium);
+}
+.about-me-text h1{
+    background: linear-gradient(180deg, var(--color-accent),rgb(207, 200, 200));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+
+.about-me-skills{
+    animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn{
+    from{
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0px);
+    }
+}

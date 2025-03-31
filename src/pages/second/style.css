@@ -1,0 +1,34 @@
+@import url('../../vars/cssVars.css');
+
+
+body{
+    margin: 0 auto;
+}
+
+.second-content{
+    margin: 0;
+    position: relative;
+    display: flex;
+}
+
+
+.second-page{
+    position: relative;
+}
+.childrens{
+    flex-grow: 1;
+    width: 60vw;
+}
+
+.chat-container{
+    height: 600px;
+
+}
+
+
+@media (max-width:768px) {
+    .chat-container{
+        height: 600px;
+        position: absolute;
+    }
+}

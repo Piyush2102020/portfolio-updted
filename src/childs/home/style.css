@@ -1,0 +1,67 @@
+@import url('../../vars/cssVars.css');
+
+
+
+body{
+    color: var(--color-text);
+}
+
+
+.home-container{
+    flex-direction: column;
+    color: var(--color-text);
+    height: 85vh;
+    position: relative;
+    overflow: hidden;
+    
+    gap: var(--gap-medium);
+    display: flex;
+    padding: var(--padding-medium);
+    justify-content: space-evenly;
+}
+.home{
+    height: 100%;
+    display: flex;
+    
+}
+.home-left-pane{
+    font-size: 1.2rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-medium);
+    color: var(--color-text);
+    width: 50%;
+}
+
+
+.name-text{
+    font-size: 5rem;
+    font-weight: bolder;
+    background: linear-gradient(0deg,var(--color-accent),var(--color-text));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+
+.home-right-pane{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width:768px) {
+
+    .home-container{
+        height: fit-content;
+    }
+    .home-left-pane{width: 100%;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+    
+
+
+}

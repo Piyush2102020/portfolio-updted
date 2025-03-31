@@ -1,0 +1,88 @@
+@import url('../../vars/cssVars.css');
+
+
+
+
+
+.chatbox {
+    width: 30vw;
+    background:color-mix(in srgb, var(--color-element) 120%, rgba(0, 0, 0, 0.51) 20%);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    height: inherit;
+}
+
+.message-container {
+    padding: 15px;
+    height: inherit;
+    gap:10px;
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+}
+
+.message {
+    padding: 8px 12px;
+    border-radius: 10px;
+    margin: 5px 0;
+    max-width: 80%;
+    font-size: 14px;
+}
+
+
+.chat-input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: var(--color-element);
+    color: var(--color-text);
+    font-size: 14px;
+    width: 100%;
+    border-top: 1px solid #333;
+    width: 70%;
+    flex-grow: 1;
+}
+
+
+.chat-send{
+width: fit-content;
+border-radius: var(--radius-small);
+padding: var(--padding-small);
+}
+
+.chat-field{
+    display: flex;
+}
+
+
+.message-user{
+    color: var(--color-text);
+    padding: var(--padding-small);
+    width: 70%;
+    align-self: flex-end;
+    text-wrap: wrap;
+    margin: 0;
+    line-height: 1;
+    background-color:var(--color-element);
+    border-radius: var(--radius-small);
+}
+
+.message-veronica{
+    text-wrap: wrap;
+    width: 70%;
+    border-radius: var(--radius-small);
+    color: var(--color-text);
+}
+
+
+@media (max-width:768px) {
+    .chatbox{
+        background-color: var(--color-background);
+        width: 100vw;
+    }
+    
+}

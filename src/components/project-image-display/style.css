@@ -1,0 +1,78 @@
+@import url('../../vars/cssVars.css');
+
+.image-item {
+    width: 200px;
+    opacity: 0; /* Hidden by default */
+    border-radius: 10px;
+    animation-fill-mode: forwards;
+}
+
+.image-display {
+    display: flex;
+}
+
+.image-display:hover{
+    transform: scale(1.1);
+}
+
+.center {
+    z-index: 10;
+    animation: fadeScale 1.5s ease-in forwards; /* Scale + Fade effect */
+}
+
+.left-side {
+    mask-image: linear-gradient(to right, transparent, white);
+    transform: translateX(-100px) scale(0.4); /* Initial slide + smaller scale */
+    animation: slideLeft 1.5s ease-in forwards;
+    animation-delay: 2s; /* Delayed entry */
+}
+
+.right-side {
+    mask-image: linear-gradient(to left, transparent, white);
+    transform: translateX(100px) scale(0.4); /* Initial slide + smaller scale */
+    animation: slideRight 1.5s ease-in forwards;
+    animation-delay: 2s; /* Delayed entry */
+}
+
+@keyframes fadeScale {
+    from {
+        opacity: 0;
+        transform: translateY(-100px) scale(1);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px) scale(1.2);
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px) scale(0.4);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) scale(0.9);
+    }
+}
+
+@keyframes slideRight {
+    from {
+        opacity: 0;
+        transform: translateX(100px) scale(0.4);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) scale(0.9);
+    }
+}
+
+
+
+@media (max-width:768px) {
+
+    .image-item{
+        width: 100px;
+    }
+    
+}

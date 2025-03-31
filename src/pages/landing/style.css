@@ -1,0 +1,164 @@
+@import url('../../vars/cssVars.css');
+
+
+body{
+    margin: 0 auto;;
+}
+*{
+transition: 0.3s ease-in-out;
+}
+
+.landing-page{
+    display: flex;
+    color:var(--color-text);
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.button-base{
+    padding: var(--padding-small);
+    border-radius: var(--radius-small);
+    border:2px solid var(--color-secondary);
+    font-weight: normal;
+}
+
+strong{
+    font-size: 1.2rem;
+}
+
+.button-base:hover{
+    transform: scale(1.1);
+    box-shadow: var(--shadow);
+}
+.button-base:active{
+    box-shadow: none;
+    transform: scale(1);
+}
+
+
+
+
+.dark-button{
+    background-color: color-mix(in srgb, var(--color-accent) 100%,black 5%);
+    color: var(--text-on-header);
+}
+
+.light-button{
+    background: transparent;
+    color: inherit;
+    border-color: var(--text-on-image);
+}
+
+.light-button:hover{
+    box-shadow: none;
+    text-shadow: 0px 10px 10px gray;
+}
+
+
+
+
+
+body{
+    background: linear-gradient(135deg, rgba(34, 197, 94, 0.9), rgba(34, 197, 94, 0.4));
+
+    color: var(--color-text);
+}
+.content{
+    padding: var(--padding-medium);
+    justify-content: center;
+    display: flex ;
+}
+
+h1{
+    font-size: 4rem;
+}
+.fade-text{
+    color: color-mix(in srgb, var(--color-text), white 40%);
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.landing-text-content{
+    width: 50%;
+    line-height: 1;
+    margin: 0;
+    padding: var(--padding-small);
+}
+.landing-text-content h4{
+    font-weight: normal;
+}
+
+.image-editor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.button-holder{
+    margin: 0;
+}
+
+
+.landing-page-footer{
+    display: flex;
+    padding: var(--padding-medium);
+}
+
+.square {
+    width: 50%;
+    height: 50%;
+    right: -100px;
+    bottom: -90px;
+    border-radius: 30%;
+    z-index: -10;
+    background-color: var(--color-accent);
+    position: absolute;
+    transform: rotate(45deg);
+    clip-path: polygon(0% 20%, 100% 0%, 80% 100%, 20% 80%);
+}
+
+
+
+
+@media (max-width:768px) {
+
+    *{
+        font-size: 10px;
+    }
+    .square{
+        display: none;
+    }
+
+    .content{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .landing-text-content{
+        align-self: flex-start;
+    }
+    .button-base{
+        width: fit-content;
+    }
+    .button-holder{
+        flex-direction: row;
+        display: flex;
+    }
+    .landing-page{
+        height: fit-content;
+
+    
+        overflow: hidden;
+       
+    }
+
+
+  
+}
