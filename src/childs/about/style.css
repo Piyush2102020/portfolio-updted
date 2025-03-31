@@ -7,7 +7,6 @@
     padding: var(--padding-small);
     color: var(--color-text);
     font-size: 1rem;
-    max-width: 70vw;
     background-color: var(--color-element);
     border-radius: var(--radius-medium);
 }
