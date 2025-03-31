@@ -9,6 +9,7 @@
     font-size: 1rem;
     background-color: var(--color-element);
     border-radius: var(--radius-medium);
+    width:100vw;
 }
 .about-me-text h1{
     background: linear-gradient(180deg, var(--color-accent),rgb(207, 200, 200));
