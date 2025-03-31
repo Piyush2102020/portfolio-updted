@@ -18,8 +18,7 @@ body{
 .header-right-pane{
     margin-right: var(--margin-small);
     display: flex;
-    justify-content: center;
-    align-items: center;
+
     gap:var(--gap-medium)
 }
 
