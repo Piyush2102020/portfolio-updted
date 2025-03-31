@@ -35,7 +35,7 @@ export default function LandingPage() {
                         <h3>Piyush Bhatt – A Developer Passionate About Innovation</h3>
                         <div className="button-holder">
                             <Link className='link' to={'home'}><button className="dark-button button-base">Visit Portfolio</button></Link>
-                            <Link className='link' to={'home/contact'}><button className="light-button button-base">View Projects</button></Link>
+                            <Link className='link' to={'home/work'}><button className="light-button button-base">View Projects</button></Link>
                         </div>
                     </div>
 
