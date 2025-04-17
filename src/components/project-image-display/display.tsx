@@ -13,7 +13,7 @@ interface props{
 }
 export default function ProjectImageDisplay({images,type}:props){
     return (
-        <div style={{flexDirection:'row'} className="image-display">
+        <div style={{flexDirection:'row'}} className="image-display">
             {images.left&&  <img onClick={()=>{window.open(images.left,"_blank")}} className="image-item left-side" src={images.left}/>}
     <img onClick={()=>{window.open(images.center,"_blank")}} className="image-item" src={images.center}/>
             {images.right&&   <img onClick={()=>{window.open(images.right,"_blank")}} className="image-item right-side" src={images.right}/>}
